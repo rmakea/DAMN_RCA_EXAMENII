@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/esquinas3"
+    android:orientation="vertical"
+    android:layout_marginRight="6dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvCommentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comment Name"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvCommentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comment Email"
+        android:textSize="14sp"
+        android:textColor="#757575" />
+
+    <TextView
+        android:id="@+id/tvCommentBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comment Body"
+        android:textSize="14sp"
+        android:paddingTop="4dp" />
+</LinearLayout>
